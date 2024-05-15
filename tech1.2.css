@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: #242222;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Navigation Styling */
+nav {
+    background: #444;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px 0;
+}
+
+main article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.975);
+}
+
+main article h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main article p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+main article .author, .date {
+    font-style: italic;
+    color: #777;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main article {
+        padding: 10px;
+    }
+}
